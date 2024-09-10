@@ -1,0 +1,12 @@
+{
+  "routes": [
+    {
+      "src": "/old-path",
+      "dest": "/new-path"
+    },
+    {
+      "src": "/api/(.*)",
+      "dest": "/api/index.js"
+    }
+  ]
+}
